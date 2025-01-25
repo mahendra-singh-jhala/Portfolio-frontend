@@ -184,7 +184,7 @@ const FullStackProject = () => {
                             <Link to="https://github.com/mahendra-singh-jhala/e-commerce-backend" target="_blank">
                                 <li className="bg-gradient-to-br from-purple-500 to-purple-900 hover:bg-gradient-to-bl duration-300 hover:scale-105 font-medium rounded-lg text-sm px-4 py-2 mt-4 tracking-wide"> backend Code </li>
                             </Link>
-                            <Link to="https://new-shopper-e-commerce.netlify.app" target="_blank">
+                            <Link to="https://shopper-new-e-commerce.netlify.app" target="_blank">
                                 <li className="bg-gradient-to-br from-purple-500 to-purple-900 hover:bg-gradient-to-bl duration-300 hover:scale-105 font-medium rounded-lg text-sm px-4 py-2 mt-4 tracking-wide"> Demo </li>
                             </Link>
                         </ul>
