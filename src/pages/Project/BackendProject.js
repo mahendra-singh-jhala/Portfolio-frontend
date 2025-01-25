@@ -2,7 +2,6 @@ import { Link } from "react-router-dom"
 import recipeImage from "../../asset/recipe.png"
 import authenticationImage from "../../asset/authentication.png"
 import resetpasswordImage from "../../asset/resetPassword.png"
-import adminpanelImage from "../../asset/adminpanel.png"
 import { motion } from "motion/react"
 
 const BackendProject = () => {
