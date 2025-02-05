@@ -7,7 +7,7 @@ import Project from "../Project/Project";
 import Skill from "../Skill/Skill";
 import profileAIImage from "../../asset/profileAI.jpg"
 import { motion } from "motion/react"
-import { Link } from "react-scroll"
+import { Link } from "react-router-dom"
 
 
 const Home = () => {
@@ -34,14 +34,10 @@ const Home = () => {
 							I'm a Full Stack Developer who loves learning new technologies and building cool projects. Check out my work, and contact me if you like what you see
 						</p>
 						<Link
-							to="contact"
-							spy={true}
-							smooth={true}
-							offset={50}
-							duration={500}
+							to="https://drive.google.com/file/d/1trtvv3GhZ6PrwO36etTbnhE5m5ejB_E7/view?usp=sharing"  target="_blank"
 							className="bg-gradient-to-br from-purple-500 to-purple-900 hover:bg-gradient-to-bl font-medium rounded-lg text-sm px-4 py-2 cursor-pointer"
 						>
-							Hire Me
+							Resume
 						</Link>
 					</motion.div>
 					<motion.div

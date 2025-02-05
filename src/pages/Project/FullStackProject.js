@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import EventImage from "../../asset/Event.png"
 import ChatImage from "../../asset/chat.png"
 import ECommerceImg from "../../asset/e-commerce.png"
+import TaskImg from "../../asset/taskManagement.png"
 import { motion } from "motion/react"
 
 const FullStackProject = () => {
@@ -188,6 +189,66 @@ const FullStackProject = () => {
                                 <li className="bg-gradient-to-br from-purple-500 to-purple-900 hover:bg-gradient-to-bl duration-300 hover:scale-105 font-medium rounded-lg text-sm px-4 py-2 mt-4 tracking-wide"> Demo </li>
                             </Link>
                         </ul>
+                    </div>
+                </motion.div>
+            </div>
+
+            {/* Project 4 */}
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 mb-10 items-center">
+                <motion.div
+                    whileInView={{ opacity: 1, x: 0 }}
+                    initial={{ opacity: 0, x: -100 }}
+                    transition={{ duration: 0.7 }}
+                    className="w-full">
+                    <div>
+                        <ul className="flex flex-wrap items-center gap-2">
+                            <li className="uppercase text-xs py-2 px-4 border font-bold tracking-widest rounded-full">Html</li>
+                            <li className="uppercase text-xs py-2 px-4 border font-bold tracking-widest rounded-full">Css (Tailwind)</li>
+                            <li className="uppercase text-xs py-2 px-4 border font-bold tracking-widest rounded-full">JavaScript</li>
+                            <li className="uppercase text-xs py-2 px-4 border font-bold tracking-widest rounded-full">React</li>
+                            <li className="uppercase text-xs py-2 px-4 border font-bold tracking-widest rounded-full">NodeJS</li>
+                            <li className="uppercase text-xs py-2 px-4 border font-bold tracking-widest rounded-full">Expressjs</li>
+                            <li className="uppercase text-xs py-2 px-4 border font-bold tracking-widest rounded-full">jsonwebToken (jwt)</li>
+                            <li className="uppercase text-xs py-2 px-4 border font-bold tracking-widest rounded-full">MongoDB</li>
+                            <li className="uppercase text-xs py-2 px-4 border font-bold tracking-widest rounded-full">Mongoose</li>
+                        </ul>
+                    </div>
+                    <div className="flex flex-col justify-center lg:justify-start">
+                        <p className="my-2 max-w-xl">
+                            <span className="font-bold text-md"> Description - </span>
+                            This task management application allows users to efficiently manage and track tasks. Users can create, update, view, and delete tasks, making it easier to organize their work. The app provides features like task prioritization and deadlines to ensure smooth task management.
+
+                        </p>
+                        <p className="my-2 max-w-xl">
+                            <span className="font-bold text-md"> My Role - </span>
+                            developed both the front-end and back-end, implementing CRUD (Create, Read, Update, Delete) operations for task management. On the front-end, I built the user interface to ensure a smooth and intuitive experience for managing tasks, while the back-end supports the functionality for storing and manipulating tasks.
+                        </p>
+                    </div>
+                    <div>
+                        <ul className="flex flex-wrap items-center justify-end pe-14 gap-2">
+                            <Link to="https://github.com/mahendra-singh-jhala/Task_Management_frontend" target="_blank">
+                                <li className="bg-gradient-to-br from-purple-500 to-purple-900 hover:bg-gradient-to-bl duration-300 hover:scale-105 font-medium rounded-lg text-sm px-4 py-2 mt-4 tracking-wide"> frontend Code </li>
+                            </Link>
+                            <Link to="https://github.com/mahendra-singh-jhala/Task_Managment_backend" target="_blank">
+                                <li className="bg-gradient-to-br from-purple-500 to-purple-900 hover:bg-gradient-to-bl duration-300 hover:scale-105 font-medium rounded-lg text-sm px-4 py-2 mt-4 tracking-wide"> backend Code </li>
+                            </Link>
+                            <Link to="https://taskmaster-task-management-app.netlify.app" target="_blank">
+                                <li className="bg-gradient-to-br from-purple-500 to-purple-900 hover:bg-gradient-to-bl duration-300 hover:scale-105 font-medium rounded-lg text-sm px-4 py-2 mt-4 tracking-wide"> Demo </li>
+                            </Link>
+                        </ul>
+                    </div>
+                </motion.div>
+                <motion.div
+                    whileInView={{ opacity: 1, x: 0 }}
+                    initial={{ opacity: 0, x: 100 }}
+                    transition={{ duration: 0.7 }}
+                    className="w-full p-8"
+                >
+                    <h1 className="font-bold text-xl mb-2 uppercase text-center"> Task Management </h1>
+                    <div className="border-2 border-purple-600 p-8 rounded-2xl">
+                        <Link>
+                            <img className="transition ease-out duration-300 hover:scale-105 rounded-xl cursor-pointer" src={TaskImg} alt="eventImage" />
+                        </Link>
                     </div>
                 </motion.div>
             </div>
