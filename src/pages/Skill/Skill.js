@@ -127,7 +127,7 @@ const Skill = () => {
                             initial={{ opacity: 0, x: 100 }}
                             transition={{ duration: 0.7 }}
                         >
-                            <h2 className="text-xl font-semibold border-2 p-4 rounded-t-lg border-purple-600">Tools && FrameWork/Library</h2>
+                            <h2 className="text-xl font-semibold border-2 p-4 rounded-t-lg border-purple-600">Softs Skill</h2>
                             <ul className="uppercase border-2 p-4 font-bold border-purple-600 max-h-44 overflow-y-auto custom-scrollbar rounded-b-lg">
                                 <li className="py-2 from-purple-500 to-purple-900 hover:bg-gradient-to-bl cursor-pointer rounded-lg ps-4">Problem Solving</li>
                                 <li className="py-2 from-purple-500 to-purple-900 hover:bg-gradient-to-bl cursor-pointer rounded-lg ps-4">Time Management</li>
