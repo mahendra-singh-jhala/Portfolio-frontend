@@ -12,14 +12,14 @@ import { Link } from "react-router-dom"
 
 const Home = () => {
 	return (
-		<div>
+		<div className="bg-[#171d32] text-white overflow-x-hidden">
 			<header>
 				<Navbar />
 			</header>
 
-			<main className="mx-20" id="home">
+			<main className="mx-4 md:mx-20">
 				{/* Home Page */}
-				<div className="mt-4 w-full flex flex-wrap justify-between items-start p-20" id="home">
+				<div className="mt-4 w-full flex flex-wrap justify-between items-start p-10 md:p-20">
 					<motion.div
 						whileInView={{ opacity: 1, x: 0 }}
 						initial={{ opacity: 0, x: -100 }}

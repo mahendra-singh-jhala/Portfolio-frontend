@@ -11,7 +11,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="w-full">
+        <nav>
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <Link to="/" className="flex items-center space-x-3">
                     <img src="https://avatar.iran.liara.run/public/boy" className="h-10" alt="UserPic" />
@@ -24,7 +24,7 @@ const Navbar = () => {
                         smooth={true}
                         offset={50}
                         duration={500}
-                        className="bg-gradient-to-br from-purple-500 to-purple-900 hover:bg-gradient-to-bl font-medium rounded-full text-sm px-4 py-2 cursor-pointer"
+                        className="hidden md:block bg-gradient-to-br from-purple-500 to-purple-900 hover:bg-gradient-to-bl font-medium rounded-full text-sm px-4 py-2 cursor-pointer"
                     >
                         Connect With Me
                     </Link>
