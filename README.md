@@ -4,7 +4,7 @@ Welcome to my personal portfolio! This site is a showcase of my work, skills, an
 
 ## 🌐 Live Site
 
-[Visit Portfolio](https://www.linkedin.com/in/mahendra-singh-jhala-021916266/)
+[Visit Portfolio](https://mahendra-singh-portfolio.netlify.app/)
 
 ## 📌 Features
 
