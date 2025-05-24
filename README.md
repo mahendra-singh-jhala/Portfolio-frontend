@@ -36,5 +36,5 @@ Welcome to my personal portfolio! This site is a showcase of my work, skills, an
 3. **Run the Frontend**
 
 ```bash
- npm run dev
+ npm start
 ```
