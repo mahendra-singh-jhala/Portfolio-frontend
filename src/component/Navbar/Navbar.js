@@ -93,6 +93,18 @@ const Navbar = () => {
                         </li>
                         <li>
                             <Link
+                                to="home"
+                                spy={true}
+                                smooth={true}
+                                offset={50}
+                                duration={500}
+                                className="text-md transition-all duration-300 md:p-0 block py-2 px-3 hover:text-orange-300 hover:border-b-2 hover:border-orange-500"
+                            >
+                                Certificate
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
                                 to="contact"
                                 spy={true}
                                 smooth={true}

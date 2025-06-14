@@ -8,6 +8,7 @@ import Skill from "../Skill/Skill";
 import profileAIImage from "../../asset/profileAI.jpg"
 import { motion } from "motion/react"
 import { Link } from "react-router-dom"
+import Certificate from "../Certificate/Certificate";
 
 
 const Home = () => {
@@ -64,6 +65,9 @@ const Home = () => {
 
 				{/* Project page */}
 				<Project />
+
+				{/* Certificate Page */}
+				<Certificate />
 
 				{/* Contact Page */}
 				<Contact />
