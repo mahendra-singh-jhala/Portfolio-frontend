@@ -93,7 +93,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <Link
-                                to="home"
+                                to="certificate"
                                 spy={true}
                                 smooth={true}
                                 offset={50}
